@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingredient Combiner</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .dropdown-group {
+      margin-bottom: 10px;
+    }
+    .dropdown-label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    select.ingredient-select {
+      margin: 0 10px 10px 10px;
+      padding: 4px;
+    }
+    button#combineButton {
+      padding: 10px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 999px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button#combineButton:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    .results {
+      border: 3px solid #000000;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .results span {
+      display: block;
+      margin: 0px 5px 0px 5px;
+      font-weight: bold;
+    }
+    #loading {
+      color: gray;
+      font-style: italic;
+    }
+
+    .potion-name {
+      color: #912424;
+      font-weight: bold;
+    }
+    #potionResult{
+      display: flex;
+    }
+    #potionDescription{
+      width:60vw;
+    }
+
+    optgroup {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Potion Ingredient Combiner</h1>
+
+  <div class="section">
+    <div class="dropdown-group">
+      <label class="dropdown-label" for="ingredient1">Ingredient 1</label>
+      <select id="ingredient1" class="ingredient-select"></select>
+    </div>
+    <div class="dropdown-group">
+      <label class="dropdown-label" for="ingredient2">Ingredient 2</label>
+      <select id="ingredient2" class="ingredient-select"></select>
+    </div>
+    <div class="dropdown-group">
+      <label class="dropdown-label" for="ingredient3">Ingredient 3</label>
+      <select id="ingredient3" class="ingredient-select"></select>
+    </div>
+    <button id="combineButton" onclick="combineIngredients()" disabled>Combine</button>
+    <div id="loading">Loading ingredients...</div>
+  </div>
+
+  <div class="section results">
+    <h2>Combined Stats:</h2>
+    <span id="combat">Combat: 0</span>
+    <span id="utility">Utility: 0</span>
+    <span id="whimsical">Whimsical: 0</span>
+    <h3 id="potionResult"></h3>
+    <p id="potionDescription"></p>
+  </div>
+
+  <script>
+    let ingredients = {};
+    let potions = {
+      combat: [],
+      utility: [],
+      whimsical: []
+    };
+
+    async function loadIngredients() {
+      try {
+        const [ingredientsRes, combatRes, utilityRes, whimsicalRes] = await Promise.all([
+          fetch('ingredients.json'),
+          fetch('combat_potions.json'),
+          fetch('utility_potions.json'),
+          fetch('whimsical_potions.json')
+        ]);
+
+        ingredients = await ingredientsRes.json();
+        potions.combat = await combatRes.json();
+        potions.utility = await utilityRes.json();
+        potions.whimsical = await whimsicalRes.json();
+
+        populateDropdown("ingredient1");
+        populateDropdown("ingredient2");
+        populateDropdown("ingredient3");
+
+        document.getElementById("combineButton").disabled = false;
+        document.getElementById("loading").style.display = 'none';
+      } catch (error) {
+        console.error('Failed to load data:', error);
+        document.getElementById("loading").textContent = 'Failed to load data.';
+      }
+    }
+
+    function populateDropdown(selectId) {
+      const select = document.getElementById(selectId);
+      select.innerHTML = '';
+
+      const rarityGroups = {
+        common: document.createElement("optgroup"),
+        uncommon: document.createElement("optgroup"),
+        rare: document.createElement("optgroup")
+      };
+
+      rarityGroups.common.label = "Common Ingredients";
+      rarityGroups.uncommon.label = "Uncommon Ingredients";
+      rarityGroups.rare.label = "Rare Ingredients";
+
+      Object.keys(ingredients).forEach(name => {
+        const option = document.createElement("option");
+        option.value = name;
+        option.textContent = name;
+        const rarity = ingredients[name].rarity || 'common';
+        rarityGroups[rarity].appendChild(option);
+      });
+
+      for (const group of Object.values(rarityGroups)) {
+        if (group.children.length > 0) {
+          select.appendChild(group);
+        }
+      }
+    }
+
+    function combineIngredients() {
+      const selected = [
+        document.getElementById("ingredient1").value,
+        document.getElementById("ingredient2").value,
+        document.getElementById("ingredient3").value
+      ];
+
+      let totals = { combat: 0, utility: 0, whimsical: 0 };
+
+      selected.forEach(name => {
+        const values = ingredients[name];
+        if (values) {
+          totals.combat += values.combat || 0;
+          totals.utility += values.utility || 0;
+          totals.whimsical += values.whimsical || 0;
+        }
+      });
+
+      document.getElementById("combat").textContent = `Combat: ${totals.combat}`;
+      document.getElementById("utility").textContent = `Utility: ${totals.utility}`;
+      document.getElementById("whimsical").textContent = `Whimsical: ${totals.whimsical}`;
+
+      determinePotion(totals);
+    }
+
+    function determinePotion(totals) {
+      const type = Object.keys(totals).reduce((a, b) => totals[a] >= totals[b] ? a : b);
+      const index = Math.max(0, Math.min(totals[type], potions[type].length - 1));
+      const potion = potions[type][index];
+
+      console.log("Potion type:", type);
+      console.log("Potion index:", index);
+      console.log("Potion name:", potion.Title);
+      console.log("Potion description:", potion.Description);
+
+    if (!potion || !potion.name) {
+      document.getElementById("potionResult").innerHTML = `You created a <span class="potion-name"> ${potion.Title} </span> (${type}) potion!`;
+      document.getElementById("potionDescription").textContent = potion.Description;;
+    } else {  
+      document.getElementById("potionResult").textContent = `You created a ${potion.name} (${type}) potion!`;
+      document.getElementById("potionDescription").textContent = potion.description;
+    }
+     
+    }
+
+    loadIngredients();
+  </script>
+</body>
+</html>

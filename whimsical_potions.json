@@ -1,0 +1,202 @@
+[
+  {
+    "Title": "Melodious Bird Calls",
+    "Description": "When you drink this frothy liquid, you can perfectly mimic the call of any songbird for 24 hours."
+  },
+  {
+    "Title": "Projected Thoughts",
+    "Description": "When you drink this gritty potion, a 1-foot-diameter bubble emerges from the top of your head. The bubble lasts for 1 hour and moves with you..."
+  },
+  {
+    "Title": "Intoxicating Aroma",
+    "Description": "When consumed, you smell of an expertly crafted perfume. The effects of this potion last for 22 years. This doesn’t count against the number of potions you can have affecting your body at once."
+  },
+  {
+    "Title": "Ladybug Kinship",
+    "Description": "When opened, this potion begins to evaporate quickly. For 1 minute, as the potion evaporates, ladybugs fly out of the bottle at a rate of 500 per round. The potion stops producing ladybugs once it has fully evaporated."
+  },
+  {
+    "Title": "Essence of Umami",
+    "Description": "This potion makes everything taste amazing. When you pour it on any food... it magically gives the taster their own personal version of the ultimate culinary experience."
+  },
+  {
+    "Title": "Echo of Laughter",
+    "Description": "This bright yellow potion causes your laughter to echo for 1d4 hours... even when you’re not laughing."
+  },
+  {
+    "Title": "Invisible Ink",
+    "Description": "Drinking this potion turns all your spoken words into visible text for 1 hour. The words float in the air near your mouth before fading after 6 seconds."
+  },
+  {
+    "Title": "Nimbus of Nostalgia",
+    "Description": "You are surrounded by a soft aura that causes mild nostalgia in anyone within 5 feet of you. There is no mechanical effect, but everyone nearby keeps thinking of simpler times."
+  },
+  {
+    "Title": "Pocket Fog",
+    "Description": "When opened, this potion releases a 5-foot cube of fog that smells like mint and disappears after 1 minute."
+  },
+  {
+    "Title": "Tonic of Tingles",
+    "Description": "Causes harmless but noticeable tingles across your body for 10 minutes. If you touch someone, they feel the same sensation."
+  },
+  {
+    "Title": "Whisperwind Draft",
+    "Description": "When consumed, your whispers can be heard clearly by a single creature within 100 feet for 1 hour. No one else hears them."
+  },
+  {
+    "Title": "Potion of Mild Levity",
+    "Description": "You feel compelled to tell harmless jokes and puns for 30 minutes. Those around you may groan but can’t help smiling."
+  },
+  {
+    "Title": "Hue Shifter",
+    "Description": "Changes the color of your skin, hair, and eyes to a random pastel shade for 24 hours."
+  },
+  {
+    "Title": "Candleflame Sipper",
+    "Description": "Your fingertips glow like candle flames for 1 hour, shedding dim light in a 5-foot radius."
+  },
+  {
+    "Title": "Dewdrop Delight",
+    "Description": "When drunk, small dew-like beads form on your skin and sparkle in the light for 1d6 hours."
+  },
+  {
+    "Title": "Meandering Mind",
+    "Description": "Your thoughts become visible as drifting colored ribbons around your head. They shift based on your mood for 1 hour."
+  },
+  {
+    "Title": "Breath of Bubbles",
+    "Description": "For 10 minutes, every breath you exhale forms soap bubbles that float gently away."
+  },
+  {
+    "Title": "Potion of Muffled Steps",
+    "Description": "Your footsteps make no sound for 1 hour, but you also leave behind faint glowing footprints that vanish after 10 seconds."
+  },
+  {
+    "Title": "Jellyfeet Elixir",
+    "Description": "For 30 minutes, your feet become translucent and gelatinous, allowing you to bounce slightly when walking. Movement speed is unaffected."
+  },
+  {
+    "Title": "Potion of Shared Hiccups",
+    "Description": "Anyone who hears you hiccup while under this potion’s effect (1 hour) also hiccups once involuntarily."
+  },
+  {
+    "Title": "Lucid Inkbrew",
+    "Description": "Anything you write while under this potion’s effect (1 hour) appears in beautiful calligraphy, regardless of your skill."
+  },
+  {
+    "Title": "Scent of the Storm",
+    "Description": "You smell faintly of ozone and rain for 24 hours."
+  },
+  {
+    "Title": "Giggling Draft",
+    "Description": "Drinking this potion causes a spontaneous giggle. You are then immune to fear effects for 1 minute."
+  },
+  {
+    "Title": "Potion of Tiny Echoes",
+    "Description": "For 10 minutes, your voice echoes slightly after you speak, as if heard in a small cavern."
+  },
+  {
+    "Title": "Honeytongue Elixir",
+    "Description": "Everything you say sounds charming and slightly flirtatious for 1 hour, regardless of your intent."
+  },
+  {
+    "Title": "Liquified Daydream",
+    "Description": "For 30 minutes, small, harmless illusions appear near you that represent your passing thoughts."
+  },
+  {
+    "Title": "Potion of Breezy Hair",
+    "Description": "Your hair is gently tousled by a non-existent wind for 8 hours. Bald individuals get a faint breeze over their scalp."
+  },
+  {
+    "Title": "Flickerphial",
+    "Description": "Your shadow flickers and changes slightly every few seconds for 1 hour."
+  },
+  {
+    "Title": "Whisperberry Elixir",
+    "Description": "You gain the ability to whisper in perfect harmony with yourself, creating a soft duet for 1 hour."
+  },
+  {
+    "Title": "Starfall Sip",
+    "Description": "For 1 minute after drinking, tiny motes of starlight trail behind your hands as you move them."
+  },
+  {
+    "Title": "Potion of Mirror Blinks",
+    "Description": "When you blink, nearby reflective surfaces blink with you for 10 minutes."
+  },
+  {
+    "Title": "Sockfinder Tonic",
+    "Description": "You gain an uncanny ability to locate lost socks for 24 hours."
+  },
+  {
+    "Title": "Brew of Warmth",
+    "Description": "Your hugs feel warm and comforting, like wrapping in a fresh blanket from the dryer. Lasts 12 hours."
+  },
+  {
+    "Title": "Featherfall Fizz",
+    "Description": "Causes feathers to gently fall from your shoulders for 10 minutes. They vanish after hitting the ground."
+  },
+  {
+    "Title": "Potion of Muffled Snaps",
+    "Description": "Any finger snaps you make are completely silent but emit a brief flash of colored light instead."
+  },
+  {
+    "Title": "Glowroot Tonic",
+    "Description": "Your fingernails glow faintly in the dark for 1d4 days."
+  },
+  {
+    "Title": "Moondew Elixir",
+    "Description": "For 8 hours, you glow faintly under moonlight, giving you advantage on Stealth checks made at night if you stand still."
+  },
+  {
+    "Title": "Cup of Curled Words",
+    "Description": "For 1 hour, everything you say sounds like it's part of a rhyming poem."
+  },
+  {
+    "Title": "Dewey Eyes Draft",
+    "Description": "Your eyes sparkle with moisture and seem larger and more expressive for 24 hours. Persuasion checks made with eye contact have advantage."
+  },
+  {
+    "Title": "Cloudstep Cordial",
+    "Description": "Your footsteps leave behind small puffs of cloud that disappear after 3 seconds."
+  },
+  {
+    "Title": "Echoglass Elixir",
+    "Description": "Anything you say near glass for the next 10 minutes repeats itself faintly 3 seconds later."
+  },
+  {
+    "Title": "Potion of Confetti Breath",
+    "Description": "For 1 hour, when you sneeze, laugh, or yawn, you emit a burst of harmless confetti."
+  },
+  {
+    "Title": "Potion of Inoffensive Scent",
+    "Description": "You smell like whatever the creature near you finds least offensive (lavender, baked bread, etc). Lasts 8 hours."
+  },
+  {
+    "Title": "Prismwink Philter",
+    "Description": "When you blink, your eyes briefly flash a prism of colors. This effect lasts 4 hours."
+  },
+  {
+    "Title": "Glimmergut Brew",
+    "Description": "Your stomach glows faintly for 1d6 hours. It’s visible through thin clothing."
+  },
+  {
+    "Title": "Potion of Tiny Whistles",
+    "Description": "Your voice occasionally turns into a faint whistle mid-sentence. No mechanical effect, but entertaining. Lasts 1 hour."
+  },
+  {
+    "Title": "Chirrup Charm",
+    "Description": "For 1 hour, your footsteps make pleasant chirping or chime sounds. You can choose the tone when the potion is consumed."
+  },
+  {
+    "Title": "Drink of Distant Rain",
+    "Description": "For the next 10 minutes, you hear faint distant rainfall no matter where you are. It has a calming effect."
+  },
+  {
+    "Title": "Blushblossom Tonic",
+    "Description": "When embarrassed, you emit a gentle floral scent for 24 hours."
+  },
+  {
+    "Title": "Potion of Momentary Pause",
+    "Description": "When consumed, you can pause time for everyone except yourself for one second. Once. You choose when it happens (within the next 10 minutes)."
+  }
+]

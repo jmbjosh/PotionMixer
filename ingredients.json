@@ -1,0 +1,812 @@
+{
+  "Amber": {
+    "combat": 9,
+    "utility": 5,
+    "whimsical": 4,
+    "rarity": "common"
+  },
+  "Apper Carrot": {
+    "combat": 0,
+    "utility": 3,
+    "whimsical": 1,
+    "rarity": "common"
+  },
+  "Bamboo": {
+    "combat": 3,
+    "utility": 3,
+    "whimsical": 3,
+    "rarity": "common"
+  },
+  "Bashu Powder": {
+    "combat": 2,
+    "utility": 0,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Blue Back Salmon": {
+    "combat": 3,
+    "utility": 4,
+    "whimsical": 7,
+    "rarity": "common"
+  },
+  "Boom Beri": {
+    "combat": 7,
+    "utility": 6,
+    "whimsical": 1,
+    "rarity": "common"
+  },
+  "Bora Bug": {
+    "combat": 4,
+    "utility": 8,
+    "whimsical": 3,
+    "rarity": "common"
+  },
+  "Brush Reed": {
+    "combat": 1,
+    "utility": 10,
+    "whimsical": 6,
+    "rarity": "common"
+  },
+  "Bundle of Driko Twigs": {
+    "combat": 1,
+    "utility": 1,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Camp Mite": {
+    "combat": 6,
+    "utility": 4,
+    "whimsical": 8,
+    "rarity": "common"
+  },
+  "Chicken Egg": {
+    "combat": 1,
+    "utility": 1,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Chisuay’s Heavenly Tea": {
+    "combat": 2,
+    "utility": 7,
+    "whimsical": 5,
+    "rarity": "common"
+  },
+  "Clay Snake Tail": {
+    "combat": 8,
+    "utility": 6,
+    "whimsical": 5,
+    "rarity": "common"
+  },
+  "Cloud Horn": {
+    "combat": 1,
+    "utility": 0,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Creeping Bolete": {
+    "combat": 3,
+    "utility": 10,
+    "whimsical": 6,
+    "rarity": "common"
+  },
+  "Dorrin Plate": {
+    "combat": 7,
+    "utility": 8,
+    "whimsical": 4,
+    "rarity": "common"
+  },
+  "Dried Fruit": {
+    "combat": 2,
+    "utility": 1,
+    "whimsical": 4,
+    "rarity": "common"
+  },
+  "Earwax": {
+    "combat": 0,
+    "utility": 0,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Fish Folk Tooth": {
+    "combat": 9,
+    "utility": 4,
+    "whimsical": 3,
+    "rarity": "common"
+  },
+  "Fish Head": {
+    "combat": 4,
+    "utility": 5,
+    "whimsical": 4,
+    "rarity": "common"
+  },
+  "Flash Paper": {
+    "combat": 6,
+    "utility": 9,
+    "whimsical": 1,
+    "rarity": "common"
+  },
+  "Green Slime": {
+    "combat": 8,
+    "utility": 6,
+    "whimsical": 7,
+    "rarity": "common"
+  },
+  "Gohaku Rice": {
+    "combat": 3,
+    "utility": 2,
+    "whimsical": 3,
+    "rarity": "common"
+  },
+  "Hakuma Sapwood": {
+    "combat": 5,
+    "utility": 1,
+    "whimsical": 9,
+    "rarity": "common"
+  },
+  "Hill Dragon Egg": {
+    "combat": 9,
+    "utility": 3,
+    "whimsical": 8,
+    "rarity": "common"
+  },
+  "Howler Fur": {
+    "combat": 10,
+    "utility": 5,
+    "whimsical": 4,
+    "rarity": "common"
+  },
+  "Itchi Beri": {
+    "combat": 0,
+    "utility": 1,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Jumping Bonfire": {
+    "combat": 6,
+    "utility": 4,
+    "whimsical": 10,
+    "rarity": "common"
+  },
+  "Jack-O’-Lantern Bits": {
+    "combat": 2,
+    "utility": 1,
+    "whimsical": 3,
+    "rarity": "common"
+  },
+  "Kloth Leech": {
+    "combat": 1,
+    "utility": 1,
+    "whimsical": 1,
+    "rarity": "common"
+  },
+  "Knobble Leaf Seaweed": {
+    "combat": 1,
+    "utility": 1,
+    "whimsical": 1,
+    "rarity": "common"
+  },
+  "Kojo Root": {
+    "combat": 6,
+    "utility": 3,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Lovers Vine": {
+    "combat": 0,
+    "utility": 0,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Mandrake Root": {
+    "combat": 8,
+    "utility": 5,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Mellowort": {
+    "combat": 4,
+    "utility": 8,
+    "whimsical": 7,
+    "rarity": "common"
+  },
+  "Monkey’s Coil": {
+    "combat": 2,
+    "utility": 0,
+    "whimsical": 1,
+    "rarity": "common"
+  },
+  "Mountain Ox Dung": {
+    "combat": 10,
+    "utility": 3,
+    "whimsical": 8,
+    "rarity": "common"
+  },
+  "Mouse Tree Nut": {
+    "combat": 4,
+    "utility": 6,
+    "whimsical": 5,
+    "rarity": "common"
+  },
+  "Narutomaki": {
+    "combat": 0,
+    "utility": 0,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Nobblewort": {
+    "combat": 3,
+    "utility": 1,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Oporion Glass": {
+    "combat": 1,
+    "utility": 10,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Origami Crane": {
+    "combat": 6,
+    "utility": 0,
+    "whimsical": 10,
+    "rarity": "common"
+  },
+  "Pink Candle Wax": {
+    "combat": 2,
+    "utility": 2,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Peeping Willow": {
+    "combat": 0,
+    "utility": 0,
+    "whimsical": 1,
+    "rarity": "common"
+  },
+  "Poison": {
+    "combat": 9,
+    "utility": 8,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Pungent Sea Foam": {
+    "combat": 5,
+    "utility": 7,
+    "whimsical": 5,
+    "rarity": "common"
+  },
+  "Pyramid Melon": {
+    "combat": 2,
+    "utility": 2,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Queen’s Dilemma": {
+    "combat": 7,
+    "utility": 5,
+    "whimsical": 3,
+    "rarity": "common"
+  },
+  "Raka Paste": {
+    "combat": 4,
+    "utility": 10,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Rattle Shoot": {
+    "combat": 10,
+    "utility": 8,
+    "whimsical": 7,
+    "rarity": "common"
+  },
+  "Ribbon Rot": {
+    "combat": 5,
+    "utility": 3,
+    "whimsical": 9,
+    "rarity": "common"
+  },
+  "Rust Crab": {
+    "combat": 8,
+    "utility": 4,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Scalefruit Rind": {
+    "combat": 4,
+    "utility": 2,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Seashell": {
+    "combat": 0,
+    "utility": 0,
+    "whimsical": 1,
+    "rarity": "common"
+  },
+  "Sea Water": {
+    "combat": 1,
+    "utility": 0,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Sheep Dragon Wool": {
+    "combat": 10,
+    "utility": 8,
+    "whimsical": 7,
+    "rarity": "common"
+  },
+  "Snap Vine Sap": {
+    "combat": 0,
+    "utility": 2,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Spindle Leg Spider Webs": {
+    "combat": 5,
+    "utility": 9,
+    "whimsical": 6,
+    "rarity": "common"
+  },
+  "Spirit Root": {
+    "combat": 6,
+    "utility": 0,
+    "whimsical": 9,
+    "rarity": "common"
+  },
+  "Squid Ink": {
+    "combat": 4,
+    "utility": 9,
+    "whimsical": 7,
+    "rarity": "common"
+  },
+  "Tangle Weed": {
+    "combat": 8,
+    "utility": 8,
+    "whimsical": 4,
+    "rarity": "common"
+  },
+  "Ube": {
+    "combat": 2,
+    "utility": 6,
+    "whimsical": 5,
+    "rarity": "common"
+  },
+  "Varrow": {
+    "combat": 0,
+    "utility": 1,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Venus Fly Rat": {
+    "combat": 9,
+    "utility": 2,
+    "whimsical": 8,
+    "rarity": "common"
+  },
+  "Windbloom": {
+    "combat": 6,
+    "utility": 7,
+    "whimsical": 0,
+    "rarity": "common"
+  },
+  "Witch’s Broom": {
+    "combat": 3,
+    "utility": 0,
+    "whimsical": 5,
+    "rarity": "common"
+  },
+  "Witch’s Eye Coral": {
+    "combat": 1,
+    "utility": 0,
+    "whimsical": 10,
+    "rarity": "common"
+  },
+  "Yugi Sap": {
+    "combat": 0,
+    "utility": 4,
+    "whimsical": 2,
+    "rarity": "common"
+  },
+  "Yuma Shrub": {
+    "combat": 5,
+    "utility": 8,
+    "whimsical": 4,
+    "rarity": "common"
+  },
+  "Black Pearl": {
+    "combat": 13,
+    "utility": 14,
+    "whimsical": 15,
+    "rarity": "uncommon"
+  },
+  "Black Cinnamon": {
+    "combat": 16,
+    "utility": 12,
+    "whimsical": 11,
+    "rarity": "uncommon"
+  },
+  "Bottle Cap (Supa-Fizz!)": {
+    "combat": 11,
+    "utility": 13,
+    "whimsical": 16,
+    "rarity": "uncommon"
+  },
+  "Crackling Jasper": {
+    "combat": 17,
+    "utility": 15,
+    "whimsical": 12,
+    "rarity": "uncommon"
+  },
+  "Corrupted Seawater": {
+    "combat": 17,
+    "utility": 11,
+    "whimsical": 14,
+    "rarity": "uncommon"
+  },
+  "Corrupted Slime": {
+    "combat": 16,
+    "utility": 14,
+    "whimsical": 13,
+    "rarity": "uncommon"
+  },
+  "Hakumon’s Ramen Broth": {
+    "combat": 12,
+    "utility": 14,
+    "whimsical": 17,
+    "rarity": "uncommon"
+  },
+  "Dawn Petal": {
+    "combat": 11,
+    "utility": 13,
+    "whimsical": 17,
+    "rarity": "uncommon"
+  },
+  "Dragon Root": {
+    "combat": 14,
+    "utility": 15,
+    "whimsical": 16,
+    "rarity": "uncommon"
+  },
+  "Essence of Ill Omen": {
+    "combat": 16,
+    "utility": 12,
+    "whimsical": 11,
+    "rarity": "uncommon"
+  },
+  "Essence of Glumbug": {
+    "combat": 11,
+    "utility": 11,
+    "whimsical": 17,
+    "rarity": "uncommon"
+  },
+  "Feather Rock": {
+    "combat": 13,
+    "utility": 17,
+    "whimsical": 15,
+    "rarity": "uncommon"
+  },
+  "Fizzing Green": {
+    "combat": 12,
+    "utility": 14,
+    "whimsical": 12,
+    "rarity": "uncommon"
+  },
+  "Forge Slag": {
+    "combat": 15,
+    "utility": 14,
+    "whimsical": 11,
+    "rarity": "uncommon"
+  },
+  "Gargoyle Powder": {
+    "combat": 15,
+    "utility": 16,
+    "whimsical": 13,
+    "rarity": "uncommon"
+  },
+  "Glow Worms of the Vale": {
+    "combat": 12,
+    "utility": 15,
+    "whimsical": 14,
+    "rarity": "uncommon"
+  },
+  "Happy Joy Cake": {
+    "combat": 12,
+    "utility": 13,
+    "whimsical": 12,
+    "rarity": "uncommon"
+  },
+  "Kojobi Fruit": {
+    "combat": 14,
+    "utility": 14,
+    "whimsical": 14,
+    "rarity": "uncommon"
+  },
+  "Laughing Moss": {
+    "combat": 11,
+    "utility": 16,
+    "whimsical": 16,
+    "rarity": "uncommon"
+  },
+  "Living Spud": {
+    "combat": 14,
+    "utility": 12,
+    "whimsical": 17,
+    "rarity": "uncommon"
+  },
+  "Lions Blume": {
+    "combat": 17,
+    "utility": 13,
+    "whimsical": 16,
+    "rarity": "uncommon"
+  },
+  "Magic Monk’s Rice Wine": {
+    "combat": 16,
+    "utility": 12,
+    "whimsical": 15,
+    "rarity": "uncommon"
+  },
+  "Molted Lizard Skin": {
+    "combat": 15,
+    "utility": 12,
+    "whimsical": 12,
+    "rarity": "uncommon"
+  },
+  "Mountain Snail": {
+    "combat": 14,
+    "utility": 15,
+    "whimsical": 12,
+    "rarity": "uncommon"
+  },
+  "Mournshade": {
+    "combat": 13,
+    "utility": 14,
+    "whimsical": 13,
+    "rarity": "uncommon"
+  },
+  "Munchanka Root": {
+    "combat": 17,
+    "utility": 11,
+    "whimsical": 11,
+    "rarity": "uncommon"
+  },
+  "Nakudama Spice": {
+    "combat": 12,
+    "utility": 15,
+    "whimsical": 14,
+    "rarity": "uncommon"
+  },
+  "Night Thistle": {
+    "combat": 14,
+    "utility": 17,
+    "whimsical": 16,
+    "rarity": "uncommon"
+  },
+  "Noodle Eel": {
+    "combat": 13,
+    "utility": 12,
+    "whimsical": 16,
+    "rarity": "uncommon"
+  },
+  "Opu Opu Spring Water": {
+    "combat": 11,
+    "utility": 16,
+    "whimsical": 14,
+    "rarity": "uncommon"
+  },
+  "Pok Pok Flakes": {
+    "combat": 13,
+    "utility": 14,
+    "whimsical": 13,
+    "rarity": "uncommon"
+  },
+  "Petrified Alligator": {
+    "combat": 15,
+    "utility": 16,
+    "whimsical": 13,
+    "rarity": "uncommon"
+  },
+  "Rubble from a Rubble Golem": {
+    "combat": 16,
+    "utility": 11,
+    "whimsical": 15,
+    "rarity": "uncommon"
+  },
+  "Shadowroot": {
+    "combat": 15,
+    "utility": 13,
+    "whimsical": 12,
+    "rarity": "uncommon"
+  },
+  "Scumweed": {
+    "combat": 11,
+    "utility": 12,
+    "whimsical": 11,
+    "rarity": "uncommon"
+  },
+  "Sleeping Merchant": {
+    "combat": 13,
+    "utility": 13,
+    "whimsical": 13,
+    "rarity": "uncommon"
+  },
+  "Spark Plug": {
+    "combat": 11,
+    "utility": 17,
+    "whimsical": 11,
+    "rarity": "uncommon"
+  },
+  "Spirit Tea": {
+    "combat": 11,
+    "utility": 11,
+    "whimsical": 17,
+    "rarity": "uncommon"
+  },
+  "Spring": {
+    "combat": 14,
+    "utility": 17,
+    "whimsical": 15,
+    "rarity": "uncommon"
+  },
+  "Sun Shroom": {
+    "combat": 13,
+    "utility": 16,
+    "whimsical": 14,
+    "rarity": "uncommon"
+  },
+  "Toka Truffle": {
+    "combat": 15,
+    "utility": 12,
+    "whimsical": 14,
+    "rarity": "uncommon"
+  },
+  "Vinyl Record": {
+    "combat": 15,
+    "utility": 15,
+    "whimsical": 15,
+    "rarity": "uncommon"
+  },
+  "Wolfenite": {
+    "combat": 11,
+    "utility": 17,
+    "whimsical": 11,
+    "rarity": "uncommon"
+  },
+  "Wychwood": {
+    "combat": 14,
+    "utility": 13,
+    "whimsical": 15,
+    "rarity": "uncommon"
+  },
+  "Yellow Slime": {
+    "combat": 17,
+    "utility": 11,
+    "whimsical": 11,
+    "rarity": "uncommon"
+  },
+  "Blossom of Spirit Vine": {
+    "combat": 18,
+    "utility": 18,
+    "whimsical": 19,
+    "rarity": "rare"
+  },
+  "Bottled Lightning": {
+    "combat": 20,
+    "utility": 20,
+    "whimsical": 18,
+    "rarity": "rare"
+  },
+  "Bubble Gum": {
+    "combat": 18,
+    "utility": 19,
+    "whimsical": 20,
+    "rarity": "rare"
+  },
+  "Coal From The Wandering Line": {
+    "combat": 19,
+    "utility": 19,
+    "whimsical": 20,
+    "rarity": "rare"
+  },
+  "Crimson Octopus Ink": {
+    "combat": 19,
+    "utility": 18,
+    "whimsical": 19,
+    "rarity": "rare"
+  },
+  "Dragon Fang of Yutro": {
+    "combat": 20,
+    "utility": 18,
+    "whimsical": 19,
+    "rarity": "rare"
+  },
+  "Fairy Willow": {
+    "combat": 18,
+    "utility": 18,
+    "whimsical": 20,
+    "rarity": "rare"
+  },
+  "Giant Koi Fish Scale": {
+    "combat": 18,
+    "utility": 20,
+    "whimsical": 18,
+    "rarity": "rare"
+  },
+  "Golden Root": {
+    "combat": 18,
+    "utility": 18,
+    "whimsical": 18,
+    "rarity": "rare"
+  },
+  "Hand of Eryo": {
+    "combat": 18,
+    "utility": 18,
+    "whimsical": 19,
+    "rarity": "rare"
+  },
+  "Irimbi Chrysalis": {
+    "combat": 19,
+    "utility": 20,
+    "whimsical": 18,
+    "rarity": "rare"
+  },
+  "Lionfish Poison": {
+    "combat": 20,
+    "utility": 0,
+    "whimsical": 0,
+    "rarity": "rare"
+  },
+  "Nokumai’s Frozen Breath": {
+    "combat": 0,
+    "utility": 0,
+    "whimsical": 20,
+    "rarity": "rare"
+  },
+  "Orange Slime": {
+    "combat": 20,
+    "utility": 20,
+    "whimsical": 20,
+    "rarity": "rare"
+  },
+  "Ota Lantern Oil": {
+    "combat": 0,
+    "utility": 20,
+    "whimsical": 0,
+    "rarity": "rare"
+  },
+  "Plumage of a Running Kirio": {
+    "combat": 18,
+    "utility": 18,
+    "whimsical": 19,
+    "rarity": "rare"
+  },
+  "Ronin Neko Figurine": {
+    "combat": 0,
+    "utility": 19,
+    "whimsical": 18,
+    "rarity": "rare"
+  },
+  "Sage Arol’s Beetle": {
+    "combat": 18,
+    "utility": 20,
+    "whimsical": 0,
+    "rarity": "rare"
+  },
+  "Starstone": {
+    "combat": 18,
+    "utility": 0,
+    "whimsical": 19,
+    "rarity": "rare"
+  },
+  "Tears of the Moon": {
+    "combat": 18,
+    "utility": 18,
+    "whimsical": 18,
+    "rarity": "rare"
+  },
+  "Wufu Whisky": {
+    "combat": 19,
+    "utility": 19,
+    "whimsical": 19,
+    "rarity": "rare"
+  }
+}
