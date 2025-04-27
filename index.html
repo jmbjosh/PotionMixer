@@ -54,7 +54,6 @@
     }
 
     .results {
-
         border: 3px solid #000000;
         border-radius: 50px;
         margin-left: 10vw;
@@ -66,6 +65,8 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        position: relative;
+        overflow: hidden;
     }
 
     .results span {
@@ -94,7 +95,6 @@
         width: 60vw;
     }
 
-    #rareBox {}
 
     #potion-rarity {
         color: #B33F40;
@@ -132,56 +132,42 @@
         margin-top: 10px;
     }
 
-    button#combineButton:disabled {
-        background-color: #ccc;
-        cursor: not-allowed;
-    }
+  
 
-    /* Bubble container */
-    button#combineButton .bubble {
+.results * {
+    position: relative;
+    z-index: 2;
+}
+
+    .wave {
         position: absolute;
-        bottom: 0;
-        background: radial-gradient(circle, #fff, transparent);
-        border-radius: 50%;
-        opacity: 0;
-        animation: bubbleUp 2s ease-out forwards;
-    }
-
-
-    .bubbles-container {
-        position: absolute;
-        top: 0;
+        bottom: -5px;
         left: 0;
-        width: 100%;
         height: 100%;
+        width: 100%;
+        background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 100" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C300,90 900,-30 1200,30 L1200,00 L0,0 Z" fill="%2300bfff"/></svg>') repeat-x;
+        transform: scaleY(-1);
+        background-size: 1200px 100px;
+        animation: waveMove 3s linear infinite;
+        opacity: 1.0;
         pointer-events: none;
-        /* so clicks pass through */
-        overflow: visible;
+        z-index:1;
+        /* So the wave doesn't block any clicks */
     }
 
-    .bubble {
-        position: absolute;
-        bottom: 0;
-        border-radius: 50%;
-        opacity: 0;
-        animation: bubbleUp 2s linear forwards;
-    }
-
-    @keyframes bubbleUp {
+    @keyframes waveMove {
         0% {
-            transform: translateY(0) scale(0.5);
-            opacity: 1;
-        }
-
-        100% {
-            transform: translateY(-100px) scale(1.5);
-            opacity: 0;
-        }
+        background-position-x: 0;
+        background-position-y: -20px;
+    }
+        50% {
+        background-position-y: 0px;
     }
 
-    .buttonContainer {
-        position: relative;
-        display: inline-block;
+    100% {
+        background-position-x: 1200px;
+        background-position-y: -20px;
+    }
     }
     </style>
 </head>
@@ -216,6 +202,7 @@
         <span id="whimsical">Whimsical: 0</span>
         <h3 id="potionResult"></h3>
         <p id="potionDescription"></p>
+        <div class="waveContainer"></div>
     </div>
     <script>
     let ingredients = {};
@@ -337,37 +324,21 @@
 
     }
 
-    loadIngredients();
 
     const combineButton = document.getElementById('combineButton');
-    const bubblesContainer = document.getElementById('bubblesContainer');
-    let bubbleInterval;
+    const resultsBox = document.querySelector('.waveContainer');
 
     combineButton.addEventListener('mouseenter', () => {
-        bubbleInterval = setInterval(createBubble, 400); // every 200ms
+        resultsBox.classList.add('wave');
     });
 
     combineButton.addEventListener('mouseleave', () => {
-        clearInterval(bubbleInterval);
+        resultsBox.classList.remove('wave');
     });
 
-    function createBubble() {
-        const bubble = document.createElement('span');
-        bubble.classList.add('bubble');
-        bubble.style.left = Math.random() * 100 + '%';
-        bubble.style.width = bubble.style.height = Math.random() * 30 + 10 + 'px';
-        bubble.style.background = `radial-gradient(circle, ${randomColor()}, transparent)`;
-        bubblesContainer.appendChild(bubble);
 
-        setTimeout(() => {
-            bubble.remove();
-        }, 3000); // match animation time
-    }
-
-    function randomColor() {
-        const colors = ['#ff4d4d', '#4dff4d', '#4d4dff', '#ffff4d', '#ff4dff', '#4dffff'];
-        return colors[Math.floor(Math.random() * colors.length)];
-    }
+    loadIngredients();
+    
     </script>
 </body>
 
