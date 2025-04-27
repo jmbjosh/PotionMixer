@@ -31,7 +31,7 @@
 
     .dropdown-container {
         display: flex;
-  }
+    }
 
     .dropdown-group {
         margin-bottom: 10px;
@@ -54,7 +54,7 @@
     }
 
     .results {
-        
+
         border: 3px solid #000000;
         border-radius: 50px;
         margin-left: 10vw;
@@ -94,19 +94,23 @@
         width: 60vw;
     }
 
-    #rareBox{}
-    #potion-rarity{
-      color: #B33F40;
+    #rareBox {}
+
+    #potion-rarity {
+        color: #B33F40;
     }
 
     .rarity-common {
-    background-color: #d4edda;
-  }
-  .rarity-uncommon {
-    background-color: #E16F9A; 
-  }
-  .rarity-rare {
-    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+        background-color: #d4edda;
+    }
+
+    .rarity-uncommon {
+        background-color: #E16F9A;
+    }
+
+    .rarity-rare {
+        background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    }
 
 
     optgroup {
@@ -174,6 +178,11 @@
             opacity: 0;
         }
     }
+
+    .buttonContainer {
+        position: relative;
+        display: inline-block;
+    }
     </style>
 </head>
 
@@ -194,7 +203,7 @@
                 <select id="ingredient3" class="ingredient-select"></select>
             </div>
         </div>
-        <div style="position: relative; display: inline-block;">
+        <div class="buttonContainer">
             <button id="combineButton" onclick="combineIngredients()" disabled>Combine</button>
             <div class="bubbles-container" id="bubblesContainer"></div>
         </div>
@@ -312,14 +321,14 @@
             document.getElementById("potionDescription").textContent = potion.description;
 
             const rareBox = document.getElementById("rareBox");
-    
-    // Clear previous rarity classes
-   rareBox.classList.remove('rarity-common', 'rarity-uncommon', 'rarity-rare');
 
-    // Add new rarity class
-    if (potion.rarity) {
-      rareBox.classList.add(`rarity-${potion.rarity.toLowerCase()}`);
-    }
+            // Clear previous rarity classes
+            rareBox.classList.remove('rarity-common', 'rarity-uncommon', 'rarity-rare');
+
+            // Add new rarity class
+            if (potion.rarity) {
+                rareBox.classList.add(`rarity-${potion.rarity.toLowerCase()}`);
+            }
 
         } else {
             document.getElementById("potionResult").textContent = `You created a ${potion.name} (${type}) potion!`;
