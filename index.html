@@ -294,7 +294,7 @@
 
     function determinePotion(totals) {
         const type = Object.keys(totals).reduce((a, b) => totals[a] >= totals[b] ? a : b);
-        const index = Math.max(0, Math.min(totals[type], potions[type].length))+1;
+        const index = Math.max(0, Math.min(totals[type], potions[type].length))-0;
         const potion = potions[type][index];
 
         console.log("Potion type:", type);
@@ -343,6 +343,7 @@
 </body>
 
 </html>
+
 
 
 
